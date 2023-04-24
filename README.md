@@ -2,7 +2,7 @@
 
 The fork makes the following changes:
 
-1. the vulnerable class returned by the lookup creates a file `foo` when it is loaded (using `touch`, linux only)
+1. the vulnerable class returned by the lookup creates a file `foo` when it is loaded (using `touch`, i.e. unix only)
 2. a pom has been added to build a standalone executable jar 
 3. gradle scripts and settings have been removed
 
